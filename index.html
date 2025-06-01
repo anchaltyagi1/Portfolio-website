@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Anchal's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection" id="home">
+        <div class="leftSection">
+          Hi,My name is
+          <span class="purple">Anchal </span>
+          <div>and I am a passionate</div>
+
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img
+            src="images/3d-cartoon-style-character-removebg-preview.png"
+            alt=""
+          />
+        </div>
+      </section>
+      <hr>
+      <section id="about" class="aboutSection">
+        <h1>About Me</h1>
+        <p>
+          I am Anchal, a passionate developer with expertise in web development and data analysis.
+        </p>
+      
+        <a href="assets/Anchal_tyagi_ (1).pdf" target="_blank" class="resume-button">View Resume</a>
+      </section>
+      
+      <hr />
+      <!-- Skills Section -->
+      <section class="secondSection" id="skills">
+        <span class="textGray">What I have learn so far </span>
+        <h1>Skills</h1>
+        <div class="skills-container">
+          <div class="skill-card">
+            <h3>HTML</h3>
+            <div class="skill-bar">
+              <div class="progress" style="width: 90%">90%</div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h3>CSS</h3>
+            <div class="skill-bar">
+              <div class="progress" style="width: 85%">85%</div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h3>JavaScript</h3>
+            <div class="skill-bar">
+              <div class="progress" style="width: 75%">75%</div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h3>Power BI</h3>
+            <div class="skill-bar">
+              <div class="progress" style="width: 70%">70%</div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h3>Python</h3>
+            <div class="skill-bar">
+              <div class="progress" style="width: 80%">80%</div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>SQL</h3>
+            <div class="skill-bar">
+              <div class="progress" style="width: 80%">80%</div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Core Java</h3>
+            <div class="skill-bar">
+              <div class="progress" style="width: 80%">80%</div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>C Language</h3>
+            <div class="skill-bar">
+              <div class="progress" style="width: 80%">80%</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+      <!-- Project section -->
+      <section class="projectsSection" id="projects">
+        <span class="textGray">What I've Built</span>
+        <h1>Projects</h1>
+
+        <div class="projects-container">
+          <div class="project-card">
+            <h3>Eventify</h3>
+            <img src="images/even-image-2.png" alt="" />
+            <p>
+              A web app to manage all college events centrally. Includes
+              features like registration, feedback, and real-time collaboration.
+            </p>
+          </div>
+
+          <div class="project-card">
+            <h3>Recipe Management System</h3>
+            <img src="images/recipe.jpg" alt="" />
+            <p>
+              A platform to add, manage, and search recipes. Includes features
+              like ingredients listing, categories, and cooking instructions.
+            </p>
+          </div>
+
+          <div class="project-card">
+            <h3>Automated Vehicle Control (RTOS)</h3>
+            <img src="images/vehicle.jpg" alt="" />
+            <p>
+              A real-time embedded system using Trampoline RTOS to control
+              vehicle operations like acceleration, braking, and steering using
+              sensor data.
+            </p>
+          </div>
+        </div>
+      </section>
+
+    
+    </main>
+
+    <footer>
+        <div class="flex">
+            <div class="first">Anchal's Portfolio</div>
+            <div class="second">
+                <ul></ul>
+            </div>
+            <div class="third"></div>
+            <div class="fourth"></div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Web Designer", "Data Analyst"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
