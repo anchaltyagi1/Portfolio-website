@@ -1,0 +1,26 @@
+# Portfolio Website
+
+This is my personal portfolio website showcasing my projects, skills, and projects.
+
+## About
+
+This website is built using  HTML, CSS. It is deployed on [Netlify](https://www.netlify.com/).
+
+## Features
+
+- Responsive design for all screen sizes
+- Showcase of projects with descriptions and links
+- Contact form / Contact information
+- Clean and modern UI
+
+## Deployment
+
+The website is deployed on Netlify and can be accessed at:  
+https://anchaltyagi-portfolio.netlify.app/
+
+
+## How to run locally
+
+ Clone the repository  
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
